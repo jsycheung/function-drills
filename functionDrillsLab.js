@@ -79,6 +79,10 @@ const compareNums = (num1, num2) => {
 */
 
 //CODE HERE
+function add(p1, p2) {
+  return Number(p1) + Number(p2);
+}
+const sum = add("3", 2);
 
 ////////////////// PROBLEM 7 ////////////////////
 
