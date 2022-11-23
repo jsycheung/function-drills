@@ -315,7 +315,6 @@ function chocFrogsCounter(gold) {
   return gold / 3;
 }
 const totalFrogs = chocFrogsCounter(98);
-console.log(totalFrogs);
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
@@ -323,6 +322,10 @@ console.log(totalFrogs);
 */
 
 //CODE HERE
+function chocFrogsCounter2(gold) {
+  return Math.floor(gold / 3);
+}
+const totalFrogs2 = chocFrogsCounter2(98);
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9];
