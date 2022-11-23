@@ -97,7 +97,7 @@ const exclaim = function (str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+console.log("expression");
 
 ////////////////// PROBLEM 8 ////////////////////
 
