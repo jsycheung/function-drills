@@ -297,6 +297,13 @@ upperCaseConverter(sampleString);
   return 'must provide a valid email address'
 */
 
+function emailCheck(email) {
+  let newEmail = String(email).trim();
+  return newEmail.includes("@")
+    ? "email verified"
+    : "must provide a valid email address";
+}
+
 ////////////////// PROBLEM 19 ////////////////////
 /*
   Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
