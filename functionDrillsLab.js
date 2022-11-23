@@ -166,6 +166,16 @@ const nameGreeting = nameCheck("Bryan");
 */
 
 //CODE HERE
+function faveColorFinder(color) {
+  return color === "red"
+    ? "red is a great color"
+    : color === "green"
+    ? "green is a solid favorite color"
+    : color === "black"
+    ? "so trendy"
+    : "you need to evaluate your favorite color choice";
+}
+const colorRating = faveColorFinder("black");
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
