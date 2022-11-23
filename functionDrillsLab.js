@@ -334,6 +334,22 @@ let sampleArray = [0, 1, 2, 3, 4, 7, 5, 6, 8, 9];
 */
 
 //CODE HERE
+function isAscending(array) {
+  let ascending = true;
+  while (ascending === true) {
+    for (let i = 0; i < array.length - 1; i++) {
+      if (array[i + 1] >= array[i]) {
+        ascending = true;
+      } else {
+        ascending = false;
+        return false;
+      }
+    }
+    return true;
+  }
+}
+const arrayIsAscending = isAscending(sampleArray);
+console.log(arrayIsAscending);
 
 ////////////////// PROBLEM 22 ////////////////////
 
