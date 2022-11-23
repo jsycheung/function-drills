@@ -202,6 +202,10 @@ printAllNames(namesArr);
 */
 
 //CODE HERE
+function thatsOdd(num) {
+  return num % 2 === 0 ? "That's not odd!" : "That is odd indeed!";
+}
+const oddChecker = thatsOdd(2);
 
 ////////////////// PROBLEM 14 ////////////////////
 
