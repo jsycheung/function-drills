@@ -106,9 +106,7 @@ console.log("expression");
   Uncomment the correct `console.log` underneath.
 */
 
-const exclaimTwo = (str) => {
-  return str.toUpperCase() + "!!!";
-};
+const exclaimTwo = (str) => `${str.toUpperCase()}!!!`;
 
 console.log("arrow");
 // console.log('declaration')
