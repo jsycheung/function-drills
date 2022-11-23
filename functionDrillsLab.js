@@ -312,9 +312,10 @@ function emailCheck(email) {
 
 //CODE HERE
 function chocFrogsCounter(gold) {
-  return Math.floor(gold / 3);
+  return gold / 3;
 }
 const totalFrogs = chocFrogsCounter(98);
+console.log(totalFrogs);
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
