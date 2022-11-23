@@ -186,6 +186,12 @@ let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 */
 
 //CODE HERE
+function printAllNames(array) {
+  for (let i = 0; i < namesArr.length; i++) {
+    console.log(array[i]);
+  }
+}
+printAllNames(namesArr);
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
